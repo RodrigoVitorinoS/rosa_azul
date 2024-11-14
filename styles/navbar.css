@@ -1,0 +1,8 @@
+.navbar{
+    background-color: var(--blue);
+    font-weight: 700;
+    font-size: 3rem;
+    justify-content: center;
+    color: aliceblue;
+    
+}

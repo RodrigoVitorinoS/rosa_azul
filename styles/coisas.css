@@ -1,0 +1,41 @@
+.bi-stars{
+    color: yellow;
+}
+.coisas-sobre-vc-container{
+    /* box-shadow: 4px 4px 15px black; */
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;  
+    justify-content: center;  
+    margin-bottom: 2rem;
+
+
+
+
+}
+h2{
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.bi-flower2{
+    color: var(--blue);
+}
+.coisas-sobre-vc{
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3); /* Sombra em todos os lados */
+    border-radius: 10px;
+    padding: 0.5rem;
+    width: 40%;
+    font-size: 1.2rem;
+}
+
+
+p{
+    border-radius: 10px;
+
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3); /* Sombra em todos os lados */
+}

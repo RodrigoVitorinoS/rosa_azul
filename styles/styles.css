@@ -1,0 +1,100 @@
+@import url(navbar.css);
+@import url(coisas.css);
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Kumbh+Sans:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.body{
+    font-family: var(--font-principal);
+}
+:root{
+    --blue:#0000ff;
+    --font-principal:  "Dancing Script", cursive;
+
+}
+
+.principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; /* Garante que o conteúdo do texto seja centralizado */
+    gap: 1rem; /* Para adicionar espaço entre os itens */
+}
+
+/* Centralizar o coração na tela */
+.carta a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.carta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    margin: 0;
+    height: 100vh;
+}
+
+
+
+/* Estilo para o coração */
+.coracao {
+    font-size: 5rem;
+    color: #D32F2F;
+    animation: pulse 1.2s infinite ease-in-out;
+    border: solid black;
+    padding: 2rem 4rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* Animação de pulsação */
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+}
+
+/* Contêiner da imagem e do ícone */
+.image-container {
+    position: relative; /* Define o contexto para posicionamento absoluto do ícone */
+    display: inline-block; /* Permite que o contêiner seja do tamanho da imagem */
+    margin: 4rem 0;
+}
+
+/* Estilo para a imagem principal */
+.main-foto {
+    width: 50%; /* Reduz o tamanho da imagem para 50% do contêiner pai */
+    height: auto; /* Mantém a proporção da imagem */
+    display: block; /* Torna a imagem um elemento de bloco */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente dentro do contêiner */
+    border-radius: 10px;
+}
+
+.rose-azul-2{
+    width: 20%;
+    height: auto;
+    position: absolute;
+    top: 70%;
+    right: 15%;
+}
+
+.rose-azul-1{
+    width: 22%;
+    height: auto;
+    position: absolute;
+    top: 70%;
+    right: 60%;
+}
+
+#audio{
+    margin: auto 0;
+}
+
+
